@@ -1,0 +1,78 @@
+body {
+  background-color: #151521;
+  font-family: "Nunito";
+}
+
+#auth {
+  height: 100vh;
+  overflow-x: hidden;
+}
+#auth #auth-right {
+  height: 100%;
+  background-color: #1e1e2d;
+}
+#auth #auth-left {
+  padding: 5rem 8rem;
+}
+#auth #auth-left .auth-title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+}
+#auth #auth-left .auth-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  color: #c2c2d9;
+}
+#auth #auth-left .form-control {
+  background-color: #1e1e2d;
+  border: 1px solid #35354f;
+  border-radius: 4px;
+}
+#auth #auth-left .forgot-password {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #435ebe;
+}
+#auth #auth-left .btn-primary {
+  background-color: #435ebe;
+  border: none;
+}
+#auth #auth-left .not-register {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #c2c2d9;
+}
+#auth #auth-left .not-register a {
+  color: #435ebe;
+  font-weight: 700;
+}
+#auth #auth-left .auth-logo {
+  margin-bottom: 7rem;
+}
+#auth #auth-left .auth-logo img {
+  height: 2rem;
+}
+@media screen and (max-width: 767px) {
+  #auth #auth-left {
+    padding: 5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  #auth #auth-left {
+    padding: 5rem 3rem;
+  }
+}
+
+body.theme-dark #auth-right {
+  background: url(/images/4853433.png?45649b87e0b3f50bfa1372c6cdb4595f),
+    linear-gradient(90deg, #2d499d, #3f5491);
+}
