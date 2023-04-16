@@ -30,12 +30,24 @@ Route::get('/dashboard', function () {
     return view('pages/dashboard/index');
 })->name('dashboard');
 Route::get('/top-up', function () {
-    return view('pages/top-up/top-up');
+    return view('pages.top-up.top-up');
 })->name('top-up');
 Route::get('/pbob', function () {
-    return view('pages/pbob/pbob');
+    return view('pages.pbob.pbob');
 })->name('pbob');
 
 Route::get('/transaksi', function () {
-    return view('pages/transaksi/transaksi');
+    return view('pages.transaksi.transaksi');
 })->name('transaksi');
+
+
+Route::group(['prefix' => 'manage', 'as' => 'manage'], function() {
+    Route::get('/role', function () {
+        return view('pages.manage.role.role');
+    })->name('role');
+
+    Route::get('/users', function () {
+        return view('pages.manage.user.user');
+    })->name('users');
+   
+});

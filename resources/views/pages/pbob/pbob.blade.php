@@ -39,7 +39,7 @@
                                         Tambah
                                     </button>
 
-                                   @include('pages.pbob.create')
+                                    @include('pages.pbob.create')
                                 </div>
                             </div>
 
@@ -86,8 +86,8 @@
 
 
                                         <!--Extra Large Modal -->
-                                        <div class="modal fade text-left w-100" id="detail" tabindex="-1"
-                                            role="dialog" aria-labelledby="myModalLabel16" aria-hidden="true">
+                                        <div class="modal fade text-left w-100" id="detail" tabindex="-1" role="dialog"
+                                            aria-labelledby="myModalLabel16" aria-hidden="true">
                                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl"
                                                 role="document">
                                                 <div class="modal-content">
@@ -171,8 +171,7 @@
                                                                                 <svg width="64" height="22"
                                                                                     viewBox="0 0 64 22" fill="none"
                                                                                     xmlns="http://www.w3.org/2000/svg">
-                                                                                    <g
-                                                                                        clip-path="url(#clip0_4306_8212)">
+                                                                                    <g clip-path="url(#clip0_4306_8212)">
                                                                                         <path
                                                                                             d="M9.43004 16.1939C9.43004 15.3948 9.43871 13.2587 9.41901 12.9955C9.43619 9.81693 7.12434 7.57475 5.66382 7.74954C4.65319 7.83722 3.80621 8.24917 3.35144 9.43426C2.92994 10.5387 3.30677 12.0078 4.70817 12.3525C6.20666 12.7227 7.08167 13.0307 7.71492 13.4653C8.49084 13.9973 9.12427 15.0137 9.14108 16.1952"
                                                                                             fill="#0060AF" />

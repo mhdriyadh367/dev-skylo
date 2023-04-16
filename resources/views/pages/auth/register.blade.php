@@ -35,8 +35,7 @@
                 <i class="bi bi-person" style="color: #818199;"></i>
             </div>
             <div class="position-absolute" style="right: 0; bottom: 0;">
-                <div class="d-flex justify-content-center align-items-center"
-                    style="width: 48px;
+                <div class="d-flex justify-content-center align-items-center" style="width: 48px;
             height: 48px;
             background: #435EBE; border-radius: 100%;">
                     <div>
@@ -46,14 +45,12 @@
             </div>
         </div>
         <div class="text-white mt-3 mb-2">Foto KTP</div>
-        <div class="d-flex justify-content-center align-items-center"
-            style="width: 398px;
+        <div class="d-flex justify-content-center align-items-center" style="width: 398px;
         height: 64px;
         background: #FFFFFF;
         border: 1px solid #35354F;
         border-radius: 8px;">
-            <div
-                style="font-weight: 400;
+            <div style="font-weight: 400;
         font-size: 15px;
         line-height: 20px;
         text-align: center;
@@ -71,9 +68,9 @@
         <div class="text-white mt-3 mb-2">Alamat</div>
 
         <fieldset class="form-group position-relative has-icon-left mb-4 d-flex align-items-center">
-            
-            <select class="form-select form-control form-control-md " style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; "
-                id="basicSelect">
+
+            <select class="form-select form-control form-control-md "
+                style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; " id="basicSelect">
                 <option>Pilih Provinsi</option>
                 <option>Pilih Provinsi</option>
                 <option>Pilih Provinsi</option>
@@ -84,11 +81,11 @@
         </fieldset>
 
         <fieldset class="form-group position-relative has-icon-left mb-4 d-flex align-items-center">
-           
-            <select class="form-select form-control form-control-md " style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; "
-                id="basicSelect">
+
+            <select class="form-select form-control form-control-md "
+                style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; " id="basicSelect">
                 <option>Pilih Kota / Kabupaten</option>
-               
+
             </select>
             <div class="form-control-icon">
                 <i class="bi bi-pin-map"></i>
@@ -96,24 +93,24 @@
         </fieldset>
 
         <fieldset class="form-group position-relative has-icon-left mb-4 d-flex align-items-center">
-          
-            <select class="form-select form-control form-control-md " style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; "
-                id="basicSelect">
-               
+
+            <select class="form-select form-control form-control-md "
+                style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; " id="basicSelect">
+
                 <option>Pilih Kecamatan</option>
             </select>
 
             <div class="form-control-icon">
                 <i class="bi bi-pin-map"></i>
             </div>
-            
+
         </fieldset>
 
         <fieldset class="form-group position-relative has-icon-left mb-4 d-flex align-items-center">
-           
-            <select class="form-select form-control form-control-md " style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; "
-                id="basicSelect">
-               
+
+            <select class="form-select form-control form-control-md "
+                style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; " id="basicSelect">
+
                 <option>Pilih Kelurahan</option>
             </select>
             <div class="form-control-icon">
@@ -122,8 +119,7 @@
         </fieldset>
 
         <div class="form-group position-relative has-icon-left mb-4">
-            <input type="text" class="form-control form-control-md text-white" name="Kode Pos"
-                placeholder="Kode Pos">
+            <input type="text" class="form-control form-control-md text-white" name="Kode Pos" placeholder="Kode Pos">
             <div class="form-control-icon">
                 <i class="bi bi-pin-map"></i>
             </div>
@@ -139,10 +135,10 @@
 
         <div class="text-white mt-3 mb-2">Rekening</div>
         <fieldset class="form-group position-relative has-icon-left mb-4 d-flex align-items-center">
-           
-            <select class="form-select form-control form-control-md " style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; "
-                id="basicSelect">
-               
+
+            <select class="form-select form-control form-control-md "
+                style="background-color: #1e1e2d; border: 1px solid #35354f; color:#607080; " id="basicSelect">
+
                 <option>Bank yang Digunakan</option>
             </select>
             <div class="form-control-icon">
@@ -161,42 +157,41 @@
         <div class="text-white mt-3 mb-2">Akun</div>
 
         <div class="form-group position-relative has-icon-left mb-4">
-            <input class="form-control form-control-md text-white" type="text" name="username" placeholder="Username"
-              >
+            <input class="form-control form-control-md text-white" type="text" name="username" placeholder="Username">
             <div class="form-control-icon">
                 <i class="bi bi-person"></i>
             </div>
         </div>
 
         <div class="form-group position-relative has-icon-left mb-4">
-            <input class="form-control form-control-md text-white" type="email" name="email" placeholder="Email"
-              >
+            <input class="form-control form-control-md text-white" type="email" name="email" placeholder="Email">
             <div class="form-control-icon">
                 <i class="bi bi-envelope"></i>
             </div>
         </div>
 
         <div class="form-group position-relative has-icon-left mb-4">
-            <input type="password" class="form-control form-control-md text-white" name="password" placeholder="Password"
-               >
+            <input type="password" class="form-control form-control-md text-white" name="password"
+                placeholder="Password">
             <div class="form-control-icon">
                 <i class="bi bi-shield-lock"></i>
             </div>
         </div>
         <div class="form-group position-relative has-icon-left mb-4">
-            <input type="password" class="form-control form-control-md text-white" name="password" placeholder="Konfirmasi Password"
-               >
+            <input type="password" class="form-control form-control-md text-white" name="password"
+                placeholder="Konfirmasi Password">
             <div class="form-control-icon">
                 <i class="bi bi-shield-lock"></i>
             </div>
         </div>
 
 
-       
+
         <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Daftar</button>
     </form>
     <div class="text-center mt-5 text-lg fs-4">
-        <p class='not-register text-gray-600'>Sudah punya akun? <a href="{{ route('login') }}" class="font-bold text-decoration-none">Masuk</a></p>
+        <p class='not-register text-gray-600'>Sudah punya akun? <a href="{{ route('login') }}"
+                class="font-bold text-decoration-none">Masuk</a></p>
     </div>
 </div>
 @stop
