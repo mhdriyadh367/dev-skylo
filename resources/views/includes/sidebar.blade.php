@@ -1,5 +1,5 @@
 @php
-    $segments = request()->segments();
+$segments = request()->segments();
 @endphp
 
 <div class="sidebar-wrapper active">
@@ -62,17 +62,23 @@
 
             <li class="sidebar-title">Pengaturan</li>
 
-            <li class="sidebar-item has-sub">
+            <li class="sidebar-item {{ last($segments) == 'role' ? 'active' : '' }} has-sub">
                 <a href="#" class="sidebar-link">
                     <i class="bi bi-person-workspace"></i>
                     <span>Manage</span>
                 </a>
                 <ul class="submenu">
-                    <li class="submenu-item">
-                        <a href="component-alert.html">Alert</a>
+                    <li class="submenu-item  {{ last($segments) == 'role' ? 'active' : '' }}">
+                        <a href="#">Role Access</a>
                     </li>
                     <li class="submenu-item">
-                        <a href="component-badge.html">Badge</a>
+                        <a href="component-badge.html">User</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="component-badge.html">Produk</a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="component-badge.html">IP Block</a>
                     </li>
 
                 </ul>
